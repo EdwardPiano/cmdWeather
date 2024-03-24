@@ -9,5 +9,9 @@ const option = {
 };
 
 request(option, (error, response, body) => {
+  if (body.cod !== 200) {
+    console.log(`エラー発生、${body.message}`);
+    return;
+  }
   console.log(`現在 ${city} の気温は ${body.main.temp} 度です。`);
 });

@@ -1,0 +1,18 @@
+{
+  "name": "cmdweather",
+  "version": "1.0.0",
+  "description": "コマンドラインで天気を調べます。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main..js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0",
+    "request": "^2.88.2"
+  }
+}
